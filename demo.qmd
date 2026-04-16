@@ -1,0 +1,66 @@
+---
+title: "Interactive Network Demo"
+description: "A physics-based visualization of the 'Discover, Characterize, Confirm' (DCC) methodological framework."
+format:
+  html:
+    toc: false
+---
+
+The interactive network below maps the conceptual and methodological terrain of my dissertation work. It illustrates how the "Discover, Characterize, Confirm" (DCC) framework bridges the gap between predictive machine learning and econometric causal inference.
+
+* **Instructions:** You can click and drag the nodes to see the physics engine react. Clicking on a specific node will highlight its direct methodological and theoretical connections.
+
+```{r}
+#| label: dcc-network
+#| echo: true
+#| message: false
+#| warning: false
+
+library(visNetwork)
+
+# Define the nodes and assign them to thematic groups for automatic color-coding
+nodes <- data.frame(
+  id = 1:9, 
+  label = c(
+    "DCC Framework", 
+    "Heterogeneous Treatment Effects", 
+    "Bayesian Additive Regression Trees", 
+    "Debiased Machine Learning", 
+    "Hierarchical Linear Modeling", 
+    "Econometrics", 
+    "Measurement", 
+    "Project STAR", 
+    "Cost-Effectiveness"
+  ),
+  group = c(
+    "Core", 
+    "Theory", 
+    "Methodology", 
+    "Methodology", 
+    "Methodology", 
+    "Theory", 
+    "Theory", 
+    "Application", 
+    "Application"
+  ),
+  value = c(25, 15, 15, 15, 10, 15, 10, 15, 10) # Makes the central nodes slightly larger
+)
+
+# Define the directional edges (connections) between the nodes
+edges <- data.frame(
+  from = c(1, 1, 1, 1, 2, 3, 6, 6, 7, 7, 8, 2), 
+  to   = c(2, 3, 4, 8, 5, 4, 4, 2, 2, 8, 9, 9)
+)
+
+# Render the interactive widget
+visNetwork(nodes, edges, width = "100%", height = "600px") |>
+  visNodes(shape = "dot", shadow = TRUE, font = list(size = 16)) |>
+  visEdges(arrows = "to", color = list(opacity = 0.5)) |>
+  visOptions(
+    highlightNearest = list(enabled = TRUE, degree = 1, hover = TRUE), 
+    nodesIdSelection = TRUE
+  ) |>
+  visPhysics(stabilization = FALSE) |>
+  visInteraction(navigationButtons = TRUE) # Adds zoom controls
+
+```

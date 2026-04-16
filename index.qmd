@@ -1,0 +1,17 @@
+---
+title: "Graham W. Buhrman"
+image: headshot.jpg
+about:
+  template: jolla
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:buhrman@wisc.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/GrahamBuhrman
+---
+
+I am a quantitative methodologist and PhD candidate at the University of Wisconsin–Madison. My research bridges causal machine learning, multilevel modeling, and statistical decision theory to improve educational research and program evaluation. I develop and study methods that help applied researchers accurately identify heterogeneous treatment effects and conduct rigorous and cost-aware program evaluations.
+

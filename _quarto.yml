@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Graham W. Buhrman"
+  site-url: https://gwbuhrman.com
+  repo-url: https://github.com/GrahamBuhrman/GrahamBuhrman.github.io
+  open-graph: true
+  page-navigation: true
+  back-to-top-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me
+      - href: demo.qmd
+        text: Interactive Demo
+      - href: concept-map.qmd
+        text: Concept Map Demo
+
+format:
+  html:
+    theme: 
+      - sandstone
+      - custom.scss
+    linkcolor: "#3f51b5"
+    fontcolor: "#313131"
+    smooth-scroll: true
+
+
+
+

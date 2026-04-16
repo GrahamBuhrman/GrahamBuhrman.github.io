@@ -1,0 +1,18 @@
+---
+title: "About Me"
+format:
+  html:
+    toc: false
+page-layout: full
+---
+
+**My Background:** I am formally trained in quantitative methods within Educational Psychology, with a technical focus on causal inference, multilevel data structures, and nonparametric regression trees. My workflow uses statistical programming in R and high-throughput computing environments.
+
+**My Research:** My dissertation proposes the 'Discover, Characterize, Confirm' (DCC) framework, a methodological pipeline designed to translate complex machine learning algorithms into epistemologically aware and visually interpretable analyses of heterogeneous treatment effects. I have presented my work on the analysis of heterogeneous treatment effects and multilevel analysis at international conferences, including AERA and IMPS, and have published work in the proceedings of IMPS and applied journals.
+
+**My Focus:** I am dedicated to leveraging the power of causal machine learning to understand and explain the mechanisms of treatment effect variation across populations in education research. By building accessible methodological workflows, I aim to prevent evaluations from masking heterogeneity while mitigating the false interpretations of spurious patterns as treatment variation. Ultimately, my work is in the pursuit of developing and scaling cost-effective interventions and programs in education that bring the maximum possible benefit to people.
+
+
+
+
+
