@@ -4,8 +4,11 @@ project:
 
 website:
   title: "Graham W. Buhrman"
-  site-url: https://gwbuhrman.com
   repo-url: https://github.com/GrahamBuhrman/GrahamBuhrman.github.io
+  page-footer: 
+    right: |
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org) <br>
+      [{{< fa brands github >}} Source](https://github.com/GrahamBuhrman/GrahamBuhrman.github.io)
   open-graph: true
   page-navigation: true
   back-to-top-navigation: true
@@ -13,12 +16,15 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: /files/Buhrman-CV.pdf
+        text: CV
       - href: about.qmd
         text: About Me
       - href: demo.qmd
         text: Interactive Demo
       - href: concept-map.qmd
         text: Concept Map Demo
+        
 
 format:
   html:
