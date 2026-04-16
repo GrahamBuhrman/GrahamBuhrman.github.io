@@ -2,7 +2,7 @@
 title: "Graham W. Buhrman"
 image: headshot.jpg
 about:
-  template: jolla
+  template: solana
   image-shape: rounded
   links:
     - icon: envelope
@@ -15,3 +15,17 @@ about:
 
 I am a quantitative methodologist and PhD student at the University of Wisconsin–Madison. My research bridges causal machine learning, multilevel modeling, and statistical decision theory to improve educational research and program evaluation. I develop and study methods that help applied researchers accurately identify heterogeneous treatment effects and conduct rigorous and cost-aware program evaluations.
 
+## Education
+
+-   PhD in Educational Psychology | Expected 2027 <br> [University of Wisconsin-Madison]{style='color:gray;'}
+
+-   MS in Educational Psychology | 2024 <br> [University of Wisconsin-Madison]{style='color:gray;'}
+
+-   BS in Interdisciplinary Studies | 2022 <br> [North Carolina State University]{style='color:gray;'}
+
+## Interests
+
+-   Causal inference
+-   Causal machine learning
+-   Heterogeneous treatment effects
+-   Multisite randomized controlled trials
