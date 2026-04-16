@@ -18,6 +18,7 @@ website:
         text: Home
       - href: /files/Buhrman-CV.pdf
         text: CV
+        target: _blank
       - href: about.qmd
         text: About Me
       - href: demo.qmd
