@@ -1,0 +1,62 @@
+---
+title: 'Beyond averages: Portraying treatment effect variation'
+author:
+- name:
+    given: Jee-Seon
+    family: Kim
+- name:
+    given: Graham W.
+    family: Buhrman
+- name:
+    given: Xiangyi.
+    family: Liao
+date: 2025-06-25T00:00:00
+categories:
+  - HTE
+  - Causal Inference
+  - Causal Machine Learning
+links:
+- icon: file-earmark-slides
+  text: Proceedings
+  url: https://openreview.net/forum?id=OtaRleftCg
+preprint: false
+citation:
+  type: paper-conference
+  container-title: "Proceedings of the International Meeting of the Psychometric Society: The 89th Annual Meeting, Prague, Czech Republic, 2024"
+  editor:
+    - name:
+        given: Jee-Seon
+        family: Kim
+    - name:
+        given: H.
+        family: Wu
+    - name:
+        given: T. M.
+        family: Sweet
+    - name:
+        given: D.
+        family: Molenaar
+    - name:
+        given: B. W.
+        family: Junker
+    - name:
+        given: I.
+        family: Moustaki
+    - name:
+        given: J.
+        family: Harring
+    - name:
+        given: O.
+        family: Bulut
+    - name:
+        given: X.
+        family: Tong
+    - name:
+        given: G.
+        family: Wallin
+    - name:
+        given: S.
+        family: Di Plinio
+  url: https://doi.org/10.64028/xvhr927961
+  doi: 10.64028/xvhr927961
+---

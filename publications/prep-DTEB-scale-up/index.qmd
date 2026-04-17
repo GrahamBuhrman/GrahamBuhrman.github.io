@@ -1,0 +1,18 @@
+---
+title: "[In Preparation] Decision-theoretic empirical Bayes: Optimizing site-specific scale-up decisions under realistic educational data conditions"
+author:
+  - name:
+      given: Graham W.
+      family: Buhrman
+  - name:
+      given: Jee-Seon
+      family: Kim
+date: 2026-04-17 
+categories:
+  - Triple-Goal Estimation
+  - Multilevel Modeling
+  - Classification
+  - HTE
+---
+
+*This manuscript is currently in preparation.*

@@ -1,0 +1,160 @@
+---
+title: "Research Framework"
+format:
+  html:
+    toc: false
+page-layout: full
+---
+
+My methodological research program operates across three core dimensions:
+
+- **Interpretable Causal Machine Learning:** While causal machine learning offers unprecedented flexibility, it carries the inherent risk of ["fooling ourselves"](https://doi.org/10.1177/25152459241304347) when searching for heterogeneous treatment effects. My research addresses this by developing a principled approach to nonparametric regression trees and similar tools—one that explicitly honors the boundary between exploratory and confirmatory research. By making these complex algorithms accessible and interpretable, I design methods that put the researcher firmly in the driver's seat, ensuring that data-driven discovery is always balanced by strict statistical control.
+
+- **Moving Beyond the Average Effect:** Rather than settling for the population Average Treatment Effect (ATE), my work focuses on uncovering treatment variation. I build tools for estimating granular, cluster-specific, and individual heterogeneous treatment effects (HTE) to accurately identify for whom and under what conditions an intervention works.
+
+- **Translation to Applied Evaluation:** I ground my work in real-world policy evaluation and applications. I am dedicated to building accessible workflows that prevent evaluations from masking heterogeneity, ultimately aiding in the development of cost-effective, scalable educational programs.
+
+These three pillars culminate in my dissertation work: the Discover, Characterize, Confirm (DCC) framework. The DCC is a comprehensive methodological pipeline designed to translate complex causal machine learning algorithms into epistemologically aware, visually interpretable analyses for applied researchers.
+
+**Below is an interactive visualization of the research areas relevant to my research program and how they are connected to one another. Clicking on one of the topics brings up my relevant work.**
+
+```{=html}
+<style>
+  .node {
+    font: 14px sans-serif;
+    fill: #555555; /* Reverted to uniform dark gray */
+    cursor: pointer;
+    transition: fill 0.2s, font-weight 0.1s ease;
+  }
+  .node:hover {
+    font-weight: 900;
+    fill: #000;
+  }
+  .link {
+    stroke: #b0c4de; 
+    stroke-opacity: 0.3;
+    fill: none;
+    pointer-events: none;
+  }
+  /* Uniform Sandstone Blue for all active connections */
+  .node--connected {
+    fill: #3f51b5 !important; 
+    font-weight: 700;
+  }
+  .link--connected {
+    stroke: #3f51b5;
+    stroke-opacity: 0.8;
+    stroke-width: 2.5px;
+  }
+</style>
+
+<div id="edge-bundling-container" style="display: flex; justify-content: center; width: 100%; min-height: 800px; margin-top: 20px; border: 1px solid #eaeaea; border-radius: 8px;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7" data-external="1"></script>
+<script>
+window.addEventListener("load", function() {
+    
+  // Clean data structure without color stages
+  const nodesData = [
+    {id: "Causal Inference", imports: ["Causal Machine Learning", "HTE"]},
+    {id: "Measurement", imports: ["Causal Inference", "Classification", "HTE"]},
+    {id: "Causal Machine Learning", imports: ["BART & Regression Trees", "Double Machine Learning (DML)"]},
+    {id: "BART & Regression Trees", imports: ["HTE", "Multilevel Modeling", "Classification"]},
+    {id: "Double Machine Learning (DML)", imports: ["HTE"]},
+    {id: "Multilevel Modeling", imports: ["Non-Normal Effects", "HTE"]},
+    {id: "Non-Normal Effects", imports: ["Adaptive Shrinkage"]},
+    {id: "Adaptive Shrinkage", imports: ["Triple-Goal Estimation"]},
+    {id: "HTE", imports: ["Cost-Effectiveness"]},
+    {id: "Classification", imports: ["Triple-Goal Estimation"]},
+    {id: "Triple-Goal Estimation", imports: ["Cost-Effectiveness"]},
+    {id: "Cost-Effectiveness", imports: []}
+  ];
+
+  const width = 800;
+  const radius = width / 2;
+
+  const root = d3.hierarchy({children: nodesData})
+      .each(d => d.data.name = d.data.id);
+
+  const tree = d3.cluster().size([2 * Math.PI, radius - 180]);
+  tree(root);
+
+  const nodes = root.leaves();
+  const map = new Map(nodes.map(d => [d.data.id, d]));
+  const links = [];
+  
+  nodes.forEach(d => {
+    if (d.data.imports) {
+      d.data.imports.forEach(i => {
+        const target = map.get(i);
+        if (target) links.push({source: d, target: target});
+      });
+    }
+  });
+
+  const line = d3.lineRadial()
+      .curve(d3.curveBundle.beta(0.85))
+      .radius(d => d.y)
+      .angle(d => d.x);
+
+  const svg = d3.select("#edge-bundling-container").append("svg")
+      .attr("viewBox", [-width / 2, -width / 2, width, width])
+      .attr("width", width)
+      .attr("height", width)
+      .style("max-width", "100%")
+      .style("height", "auto");
+
+  // === ARROW MARKERS ===
+  const defs = svg.append("defs");
+  defs.append("marker").attr("id", "arrow-default").attr("viewBox", "0 -5 10 10").attr("refX", 10).attr("refY", 0).attr("markerWidth", 6).attr("markerHeight", 6).attr("orient", "auto")
+    .append("path").attr("fill", "#b0c4de").attr("opacity", 0.6).attr("d", "M0,-5L10,0L0,5");
+  defs.append("marker").attr("id", "arrow-hover").attr("viewBox", "0 -5 10 10").attr("refX", 10).attr("refY", 0).attr("markerWidth", 6).attr("markerHeight", 6).attr("orient", "auto")
+    .append("path").attr("fill", "#3f51b5").attr("d", "M0,-5L10,0L0,5");
+
+  const g = svg.append("g");
+
+  const link = g.append("g")
+    .selectAll("path")
+    .data(links)
+    .join("path")
+      .attr("class", "link")
+      .attr("marker-end", "url(#arrow-default)")
+      .attr("d", d => line(d.source.path(d.target)));
+
+  const node = g.append("g")
+    .selectAll("text")
+    .data(nodes)
+    .join("text")
+      .attr("class", "node")
+      .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y + 8},0)${d.x >= Math.PI ? " rotate(180)" : ""}`)
+      .attr("dy", "0.31em")
+      .attr("x", d => d.x < Math.PI ? 6 : -6)
+      .attr("text-anchor", d => d.x < Math.PI ? "start" : "end")
+      .text(d => d.data.id)
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout)
+      .on("click", (event, d) => {
+        const categoryHash = encodeURIComponent(d.data.id);
+        window.open(`publications/index.html#category=${categoryHash}`, '_blank');
+      });
+
+  function mouseover(event, d) {
+    link.classed("link--connected", l => {
+      if (l.source === d) { l.target.connected = true; return true; }
+      if (l.target === d) { l.source.connected = true; return true; }
+      return false;
+    })
+    .attr("marker-end", l => (l.target === d || l.source === d) ? "url(#arrow-hover)" : "url(#arrow-default)")
+    .filter(l => l.target === d || l.source === d).raise();
+    
+    node.classed("node--connected", n => n.connected);
+  }
+
+  function mouseout() {
+    link.classed("link--connected", false).attr("marker-end", "url(#arrow-default)");
+    node.classed("node--connected", false);
+    nodes.forEach(n => n.connected = false);
+  }
+});
+</script>
+```

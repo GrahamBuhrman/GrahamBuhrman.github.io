@@ -1,0 +1,17 @@
+---
+title: "Publications and Working Papers"
+page-layout: article
+listing:
+  sort: 
+    - "date desc"
+  type: custom
+  template: ../_ejs/publication.ejs
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  max-items: 1000
+  page-size: 100
+  fields: [author, title, date, citation, categories]
+  feed: 
+    title: publications
+---

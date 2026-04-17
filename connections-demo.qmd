@@ -1,0 +1,139 @@
+---
+title: "Interactive Connections Demo"
+format:
+  html:
+    toc: false
+page-layout: full
+---
+
+Hover over any topic to see its connections. Scroll to zoom, and click and drag to pan.
+
+```{=html}
+<style>
+  .node {
+    font: 14px sans-serif;
+    fill: #555555;
+    cursor: pointer;
+    transition: fill 0.2s, font-weight 0.1s ease;
+  }
+  .node:hover {
+    font-weight: 900;
+    fill: #000;
+  }
+  .link {
+    stroke: #b0c4de; 
+    stroke-opacity: 0.3;
+    fill: none;
+    pointer-events: none;
+  }
+  .node--connected {
+    fill: #3f51b5 !important;
+    font-weight: 700;
+  }
+  .link--connected {
+    stroke: #3f51b5;
+    stroke-opacity: 0.8;
+    stroke-width: 2.5px;
+  }
+</style>
+
+<div id="edge-bundling-container" style="display: flex; justify-content: center; width: 100%; min-height: 850px; margin-top: 20px; border: 1px solid #eaeaea; border-radius: 8px; overflow: hidden;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7" data-external="1"></script>
+<script>
+window.addEventListener("load", function() {
+    
+  // Flattened data structure: No more dots/domains in the names
+  const nodesData = [
+    {id: "Causal Inference", imports: ["Causal Machine Learning", "HTE"]},
+    {id: "Causal Machine Learning", imports: ["Regression Trees", "Debiased ML"]},
+    {id: "Regression Trees", imports: ["HTE"]},
+    {id: "Debiased ML", imports: ["HTE"]},
+    {id: "HTE", imports: ["Cost-Effectiveness"]},
+    {id: "Multilevel Modeling", imports: ["Non-Normal Effects", "Location-Scale", "HTE"]},
+    {id: "Non-Normal Effects", imports: ["Adaptive Shrinkage"]},
+    {id: "Location-Scale", imports: ["Adaptive Shrinkage"]},
+    {id: "Adaptive Shrinkage", imports: ["Triple-Goal"]},
+    {id: "Triple-Goal", imports: ["Cost-Effectiveness"]},
+    {id: "Measurement", imports: ["Classification", "HTE"]},
+    {id: "Classification", imports: ["Triple-Goal"]},
+    {id: "Cost-Effectiveness", imports: []}
+  ];
+
+  const width = 800;
+  const radius = width / 2;
+
+  // 1. Build a flat hierarchy (all nodes under one root)
+  const root = d3.hierarchy({children: nodesData})
+      .each(d => d.data.name = d.data.id);
+
+  const tree = d3.cluster().size([2 * Math.PI, radius - 180]);
+  tree(root);
+
+  const nodes = root.leaves();
+  const map = new Map(nodes.map(d => [d.data.id, d]));
+  const links = [];
+  
+  nodes.forEach(d => {
+    if (d.data.imports) {
+      d.data.imports.forEach(i => {
+        const target = map.get(i);
+        if (target) links.push({source: d, target: target});
+      });
+    }
+  });
+
+  const line = d3.lineRadial()
+      .curve(d3.curveBundle.beta(0.85))
+      .radius(d => d.y)
+      .angle(d => d.x);
+
+  const svg = d3.select("#edge-bundling-container").append("svg")
+      .attr("viewBox", [-width / 2, -width / 2, width, width])
+      .attr("width", width)
+      .attr("height", width)
+      .style("max-width", "100%")
+      .style("height", "auto")
+      .call(d3.zoom().scaleExtent([0.5, 5]).on("zoom", (e) => g.attr("transform", e.transform)));
+
+  const g = svg.append("g");
+
+  const link = g.append("g")
+    .selectAll("path")
+    .data(links)
+    .join("path")
+      .attr("class", "link")
+      .attr("d", d => line(d.source.path(d.target)));
+
+  const node = g.append("g")
+    .selectAll("text")
+    .data(nodes)
+    .join("text")
+      .attr("class", "node")
+      .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y + 8},0)${d.x >= Math.PI ? " rotate(180)" : ""}`)
+      .attr("dy", "0.31em")
+      .attr("x", d => d.x < Math.PI ? 6 : -6)
+      .attr("text-anchor", d => d.x < Math.PI ? "start" : "end")
+      .text(d => d.data.id)
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout);
+
+  function mouseover(event, d) {
+    link.classed("link--connected", l => {
+      if (l.source === d) { l.target.connected = true; return true; }
+      if (l.target === d) { l.source.connected = true; return true; }
+      return false;
+    }).filter(l => l.target === d || l.source === d).raise();
+    node.classed("node--connected", n => n.connected);
+  }
+
+  function mouseout() {
+    link.classed("link--connected", false);
+    node.classed("node--connected", false);
+    nodes.forEach(n => n.connected = false);
+  }
+});
+</script>
+
+```
+

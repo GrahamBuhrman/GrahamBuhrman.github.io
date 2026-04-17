@@ -5,6 +5,8 @@ project:
 website:
   title: "Graham W. Buhrman"
   repo-url: https://github.com/GrahamBuhrman/GrahamBuhrman.github.io
+  description: "Quantitative methodologist and Ph.D. student specializing in causal machine learning and multilevel modeling."
+  site-url: "https://gwbuhrman.com"
   page-footer: 
     right: |
       Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org) <br>
@@ -19,12 +21,10 @@ website:
       - href: /files/Buhrman-CV.pdf
         text: CV
         target: _blank
-      - href: about.qmd
-        text: About Me
-      - href: demo.qmd
-        text: Interactive Demo
-      - href: concept-map.qmd
-        text: Concept Map Demo
+      - href: research.qmd
+        text: Research
+      - href: publications/index.qmd
+        text: Publications
         
 
 format:

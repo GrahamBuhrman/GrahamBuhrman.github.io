@@ -13,7 +13,9 @@ about:
       href: https://github.com/GrahamBuhrman
 ---
 
-I am a quantitative methodologist and PhD student at the University of Wisconsin–Madison. My research bridges causal machine learning, multilevel modeling, and statistical decision theory to improve educational research and program evaluation. I develop and study methods that help applied researchers accurately identify heterogeneous treatment effects and conduct rigorous and cost-aware program evaluations.
+I am a quantitative methodologist and Ph.D. student in Educational Psychology at the University of Wisconsin–Madison. My research bridges causal machine learning, multilevel modeling, and statistical decision theory to improve educational research and program evaluation.
+
+My work focuses on moving beyond average effects to uncover true treatment variation. Through my dissertation—the Discover, Characterize, Confirm (DCC) framework—I develop tools that close the gap between highly flexible, data-driven machine learning and the practical needs and concerns of applied researchers. Ultimately, I aim to build accessible workflows that accurately identify for whom and under what conditions interventions work, aiding in the development of scalable, cost-effective educational programs.
 
 ## Education
 
@@ -22,10 +24,3 @@ I am a quantitative methodologist and PhD student at the University of Wisconsin
 -   MS in Educational Psychology | 2024 <br> [University of Wisconsin-Madison]{style='color:gray;'}
 
 -   BS in Interdisciplinary Studies | 2022 <br> [North Carolina State University]{style='color:gray;'}
-
-## Interests
-
--   Causal inference
--   Causal machine learning
--   Heterogeneous treatment effects
--   Multisite randomized controlled trials

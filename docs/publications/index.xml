@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>publications</title>
+<link>https://gwbuhrman.com/publications/</link>
+<atom:link href="https://gwbuhrman.com/publications/index.xml" rel="self" type="application/rss+xml"/>
+<description>Quantitative methodologist and Ph.D. student specializing in causal machine learning and multilevel modeling.</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 01 Jul 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>[Forthcoming] Cluster-specific estimands: Identification and uncertainty in multilevel analysis</title>
+  <dc:creator>Jee-Seon Kim</dc:creator>
+  <dc:creator>Graham W. Buhrman</dc:creator>
+  <dc:creator>Xiangyi Liao</dc:creator>
+  <link>https://gwbuhrman.com/publications/IMPS-2025-proceedings-cluster-estimands/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><em>This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society</em></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Causal Inference</category>
+  <category>Multilevel Modeling</category>
+  <category>HTE</category>
+  <guid>https://gwbuhrman.com/publications/IMPS-2025-proceedings-cluster-estimands/</guid>
+  <pubDate>Wed, 01 Jul 2026 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Forthcoming] Adaptive shrinkage with Student’s t: Limited gains over Gaussian hierarchical linear models</title>
+  <dc:creator>Graham W. Buhrman</dc:creator>
+  <dc:creator>Jee-Seon Kim</dc:creator>
+  <dc:creator>Weicong Lyu</dc:creator>
+  <link>https://gwbuhrman.com/publications/IMPS-2025-proceedings-shrinkage/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><em>This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society</em></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Adaptive Shrinkage</category>
+  <category>Multilevel Modeling</category>
+  <category>Classification</category>
+  <guid>https://gwbuhrman.com/publications/IMPS-2025-proceedings-shrinkage/</guid>
+  <pubDate>Wed, 01 Jul 2026 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[In Preparation] Decision-theoretic empirical Bayes: Optimizing site-specific scale-up decisions under realistic educational data conditions</title>
+  <dc:creator>Graham W. Buhrman</dc:creator>
+  <dc:creator>Jee-Seon Kim</dc:creator>
+  <link>https://gwbuhrman.com/publications/prep-DTEB-scale-up/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><em>This manuscript is currently in preparation.</em></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Triple-Goal Estimation</category>
+  <category>Multilevel Modeling</category>
+  <category>Classification</category>
+  <category>HTE</category>
+  <guid>https://gwbuhrman.com/publications/prep-DTEB-scale-up/</guid>
+  <pubDate>Fri, 17 Apr 2026 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Beyond averages: Portraying treatment effect variation</title>
+  <dc:creator>Jee-Seon Kim</dc:creator>
+  <dc:creator>Graham W. Buhrman</dc:creator>
+  <dc:creator>Xiangyi. Liao</dc:creator>
+  <link>https://gwbuhrman.com/publications/IMPS-2024-proceedings-beyond-averages/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kim2025,
+  author = {Kim, Jee-Seon and Buhrman, Graham W. and Liao, Xiangyi.},
+  editor = {Kim, Jee-Seon and Wu, H. and Sweet, T. M. and Molenaar, D.
+    and Junker, B. W. and Moustaki, I. and Harring, J. and Bulut, O. and
+    Tong, X. and Wallin, G. and Di Plinio, S.},
+  title = {Beyond Averages: {Portraying} Treatment Effect Variation},
+  booktitle = {Proceedings of the International Meeting of the
+    Psychometric Society: The 89th Annual Meeting, Prague, Czech
+    Republic, 2024},
+  date = {2025-06-25},
+  url = {https://doi.org/10.64028/xvhr927961},
+  doi = {10.64028/xvhr927961},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-kim2025" class="csl-entry quarto-appendix-citeas">
+Kim, J.-S., Buhrman, G. W., &amp; Liao, Xiangyi. (2025). Beyond
+averages: Portraying treatment effect variation. In J.-S. Kim, H. Wu, T.
+M. Sweet, D. Molenaar, B. W. Junker, I. Moustaki, J. Harring, O. Bulut,
+X. Tong, G. Wallin, &amp; S. Di Plinio (Eds.), <em>Proceedings of the
+International Meeting of the Psychometric Society: The 89th Annual
+Meeting, Prague, Czech Republic, 2024</em>. <a href="https://doi.org/10.64028/xvhr927961">https://doi.org/10.64028/xvhr927961</a>
+</div></div></section></div> ]]></description>
+  <category>HTE</category>
+  <category>Causal Inference</category>
+  <category>Causal Machine Learning</category>
+  <guid>https://gwbuhrman.com/publications/IMPS-2024-proceedings-beyond-averages/</guid>
+  <pubDate>Wed, 25 Jun 2025 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Using nonparametric regression trees to estimate different forms of heterogeneous treatment effects</title>
+  <dc:creator>Graham W. Buhrman</dc:creator>
+  <dc:creator>Xiangyi. Liao</dc:creator>
+  <dc:creator>Jee-Seon Kim</dc:creator>
+  <link>https://gwbuhrman.com/publications/IMPS-2024-proceedings-nonparametric-trees/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{buhrman2025,
+  author = {Buhrman, Graham W. and Liao, Xiangyi. and Kim, Jee-Seon},
+  editor = {Kim, Jee-Seon and Wu, H. and Sweet, T. M. and Molenaar, D.
+    and Junker, B. W. and Moustaki, I. and Harring, J. and Bulut, O. and
+    Tong, X. and Wallin, G. and Di Plinio, S.},
+  title = {Using Nonparametric Regression Trees to Estimate Different
+    Forms of Heterogeneous Treatment Effects},
+  booktitle = {Proceedings of the International Meeting of the
+    Psychometric Society: The 89th Annual Meeting, Prague, Czech
+    Republic, 2024},
+  date = {2025-06-25},
+  url = {https://doi.org/10.64028/pulr698375},
+  doi = {10.64028/pulr698375},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-buhrman2025" class="csl-entry quarto-appendix-citeas">
+Buhrman, G. W., Liao, Xiangyi., &amp; Kim, J.-S. (2025). Using
+nonparametric regression trees to estimate different forms of
+heterogeneous treatment effects. In J.-S. Kim, H. Wu, T. M. Sweet, D.
+Molenaar, B. W. Junker, I. Moustaki, J. Harring, O. Bulut, X. Tong, G.
+Wallin, &amp; S. Di Plinio (Eds.), <em>Proceedings of the International
+Meeting of the Psychometric Society: The 89th Annual Meeting, Prague,
+Czech Republic, 2024</em>. <a href="https://doi.org/10.64028/pulr698375">https://doi.org/10.64028/pulr698375</a>
+</div></div></section></div> ]]></description>
+  <category>Causal Inference</category>
+  <category>Causal Machine Learning</category>
+  <category>HTE</category>
+  <category>BART &amp; Regression Trees</category>
+  <guid>https://gwbuhrman.com/publications/IMPS-2024-proceedings-nonparametric-trees/</guid>
+  <pubDate>Wed, 25 Jun 2025 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Exploring conceptual differences among nonparametric estimators of treatment effect heterogeneity in the context of clustered data</title>
+  <dc:creator>Graham W. Buhrman</dc:creator>
+  <dc:creator>Xiangyi Liao</dc:creator>
+  <dc:creator>Jee-Seon Kim</dc:creator>
+  <link>https://gwbuhrman.com/publications/IMPS-2023-proceedings-clustered-nonparametric/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{buhrman2024,
+  author = {Buhrman, Graham W. and Liao, Xiangyi and Kim, Jee-Seon},
+  editor = {Wiberg, Marie and Kim, Jee-Seon and Hwang, Heungsun and Wu,
+    Hao and Sweet, Tracy},
+  publisher = {Springer},
+  title = {Exploring Conceptual Differences Among Nonparametric
+    Estimators of Treatment Effect Heterogeneity in the Context of
+    Clustered Data},
+  booktitle = {Quantitative Psychology: The 88th Annual Meeting of the
+    Psychometric Society, Maryland, USA, 2023},
+  date = {2024-06-19},
+  url = {https://doi.org/10.1007/978-3-031-55548-0_25},
+  doi = {10.1007/978-3-031-55548-0_25},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-buhrman2024" class="csl-entry quarto-appendix-citeas">
+Buhrman, G. W., Liao, X., &amp; Kim, J.-S. (2024). Exploring conceptual
+differences among nonparametric estimators of treatment effect
+heterogeneity in the context of clustered data. In M. Wiberg, J.-S. Kim,
+H. Hwang, H. Wu, &amp; T. Sweet (Eds.), <em>Quantitative Psychology: The
+88th Annual Meeting of the Psychometric Society, Maryland, USA,
+2023</em>. Springer. <a href="https://doi.org/10.1007/978-3-031-55548-0_25">https://doi.org/10.1007/978-3-031-55548-0_25</a>
+</div></div></section></div> ]]></description>
+  <category>BART &amp; Regression Trees</category>
+  <category>Multilevel Modeling</category>
+  <category>Causal Machine Learning</category>
+  <category>Causal Inference</category>
+  <category>HTE</category>
+  <guid>https://gwbuhrman.com/publications/IMPS-2023-proceedings-clustered-nonparametric/</guid>
+  <pubDate>Wed, 19 Jun 2024 05:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

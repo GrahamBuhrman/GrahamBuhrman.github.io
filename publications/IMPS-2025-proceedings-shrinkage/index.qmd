@@ -1,0 +1,20 @@
+---
+title: "[Forthcoming] Adaptive shrinkage with Student's t: Limited gains over Gaussian hierarchical linear models"
+author:
+  - name:
+      given: Graham W.
+      family: Buhrman
+  - name:
+      given: Jee-Seon
+      family: Kim
+  - name:
+      given: Weicong
+      family: Lyu
+date: 2026-07-01 
+categories:
+  - Adaptive Shrinkage 
+  - Multilevel Modeling
+  - Classification
+---
+
+*This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society*

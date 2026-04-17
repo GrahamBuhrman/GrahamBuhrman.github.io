@@ -1,0 +1,47 @@
+---
+title: 'Exploring conceptual differences among nonparametric estimators of treatment effect heterogeneity in the context of clustered data'
+author:
+  - name:
+      given: Graham W.
+      family: Buhrman
+  - name:
+      given: Xiangyi
+      family: Liao
+  - name:
+      given: Jee-Seon
+      family: Kim
+date: 2024-06-19T00:00:00
+categories:
+  - BART & Regression Trees
+  - Multilevel Modeling
+  - Causal Machine Learning
+  - Causal Inference
+  - HTE
+links:
+  - icon: file-earmark-slides
+    text: Proceedings
+    url: https://doi.org/10.1007/978-3-031-55548-0_25
+preprint: false
+citation:
+  type: paper-conference
+  container-title: "Quantitative Psychology: The 88th Annual Meeting of the Psychometric Society, Maryland, USA, 2023"
+  publisher: "Springer"
+  editor:
+    - name:
+        given: Marie
+        family: Wiberg
+    - name:
+        given: Jee-Seon
+        family: Kim
+    - name:
+        given: Heungsun
+        family: Hwang
+    - name:
+        given: Hao
+        family: Wu
+    - name:
+        given: Tracy
+        family: Sweet
+  url: https://doi.org/10.1007/978-3-031-55548-0_25
+  doi: 10.1007/978-3-031-55548-0_25
+---

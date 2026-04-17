@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A physics-based visualization of the ‘Discover, Characterize, Confirm’ (DCC) methodological framework.">
 
-<title>Interactive Network Demo – Graham W. Buhrman</title>
+<title>Research Framework – Graham W. Buhrman</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -106,22 +70,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-
-<link href="site_libs/vis-9.1.0/vis-network.min.css" rel="stylesheet">
-
-<script src="site_libs/vis-9.1.0/vis-network.min.js"></script>
-
-<script src="site_libs/visNetwork-binding-2.1.4/visNetwork.js"></script>
 
 
-
-<meta property="og:title" content="Interactive Network Demo – Graham W. Buhrman">
-<meta property="og:description" content="A physics-based visualization of the ‘Discover, Characterize, Confirm’ (DCC) methodological framework.">
+<meta property="og:title" content="Research Framework – Graham W. Buhrman">
+<meta property="og:description" content="Quantitative methodologist and Ph.D.&nbsp;student specializing in causal machine learning and multilevel modeling.">
 <meta property="og:site_name" content="Graham W. Buhrman">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -147,7 +103,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -162,26 +118,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Interactive Network Demo</h1>
-</div>
-
-<div>
-  <div class="description">
-    A physics-based visualization of the ‘Discover, Characterize, Confirm’ (DCC) methodological framework.
-  </div>
+<h1 class="title">Research Framework</h1>
 </div>
 
 
-<div class="quarto-title-meta">
+
+<div class="quarto-title-meta column-page">
 
     
   
@@ -193,62 +144,152 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>The interactive network below maps the conceptual and methodological terrain of my dissertation work. It illustrates how the “Discover, Characterize, Confirm” (DCC) framework bridges the gap between predictive machine learning and econometric causal inference.</p>
+<p>My methodological research program operates across three core dimensions:</p>
 <ul>
-<li><strong>Instructions:</strong> You can click and drag the nodes to see the physics engine react. Clicking on a specific node will highlight its direct methodological and theoretical connections.</li>
+<li><p><strong>Interpretable Causal Machine Learning:</strong> While causal machine learning offers unprecedented flexibility, it carries the inherent risk of <a href="https://doi.org/10.1177/25152459241304347">“fooling ourselves”</a> when searching for heterogeneous treatment effects. My research addresses this by developing a principled approach to nonparametric regression trees and similar tools—one that explicitly honors the boundary between exploratory and confirmatory research. By making these complex algorithms accessible and interpretable, I design methods that put the researcher firmly in the driver’s seat, ensuring that data-driven discovery is always balanced by strict statistical control.</p></li>
+<li><p><strong>Moving Beyond the Average Effect:</strong> Rather than settling for the population Average Treatment Effect (ATE), my work focuses on uncovering treatment variation. I build tools for estimating granular, cluster-specific, and individual heterogeneous treatment effects (HTE) to accurately identify for whom and under what conditions an intervention works.</p></li>
+<li><p><strong>Translation to Applied Evaluation:</strong> I ground my work in real-world policy evaluation and applications. I am dedicated to building accessible workflows that prevent evaluations from masking heterogeneity, ultimately aiding in the development of cost-effective, scalable educational programs.</p></li>
 </ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(visNetwork)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the nodes and assign them to thematic groups for automatic color-coding</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>nodes <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">id =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>, </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">label =</span> <span class="fu">c</span>(</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"DCC Framework"</span>, </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Heterogeneous Treatment Effects"</span>, </span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Bayesian Additive Regression Trees"</span>, </span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Debiased Machine Learning"</span>, </span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Hierarchical Linear Modeling"</span>, </span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Econometrics"</span>, </span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Measurement"</span>, </span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Project STAR"</span>, </span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Cost-Effectiveness"</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  ),</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">group =</span> <span class="fu">c</span>(</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Core"</span>, </span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Theory"</span>, </span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Methodology"</span>, </span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Methodology"</span>, </span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Methodology"</span>, </span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Theory"</span>, </span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Theory"</span>, </span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Application"</span>, </span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Application"</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  ),</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="at">value =</span> <span class="fu">c</span>(<span class="dv">25</span>, <span class="dv">15</span>, <span class="dv">15</span>, <span class="dv">15</span>, <span class="dv">10</span>, <span class="dv">15</span>, <span class="dv">10</span>, <span class="dv">15</span>, <span class="dv">10</span>) <span class="co"># Makes the central nodes slightly larger</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the directional edges (connections) between the nodes</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>edges <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  <span class="at">from =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">6</span>, <span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">7</span>, <span class="dv">8</span>, <span class="dv">2</span>), </span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>  <span class="at">to   =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">8</span>, <span class="dv">5</span>, <span class="dv">4</span>, <span class="dv">4</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">9</span>)</span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="co"># Render the interactive widget</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">visNetwork</span>(nodes, edges, <span class="at">width =</span> <span class="st">"100%"</span>, <span class="at">height =</span> <span class="st">"600px"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visNodes</span>(<span class="at">shape =</span> <span class="st">"dot"</span>, <span class="at">shadow =</span> <span class="cn">TRUE</span>, <span class="at">font =</span> <span class="fu">list</span>(<span class="at">size =</span> <span class="dv">16</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visEdges</span>(<span class="at">arrows =</span> <span class="st">"to"</span>, <span class="at">color =</span> <span class="fu">list</span>(<span class="at">opacity =</span> <span class="fl">0.5</span>)) <span class="sc">|&gt;</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visOptions</span>(</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">highlightNearest =</span> <span class="fu">list</span>(<span class="at">enabled =</span> <span class="cn">TRUE</span>, <span class="at">degree =</span> <span class="dv">1</span>, <span class="at">hover =</span> <span class="cn">TRUE</span>), </span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">nodesIdSelection =</span> <span class="cn">TRUE</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visPhysics</span>(<span class="at">stabilization =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">visInteraction</span>(<span class="at">navigationButtons =</span> <span class="cn">TRUE</span>) <span class="co"># Adds zoom controls</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div id="htmlwidget-57ced4396cb3f4e5c506" style="width:100%;height:600px;" class="visNetwork html-widget"></div>
-<script type="application/json" data-for="htmlwidget-57ced4396cb3f4e5c506">{"x":{"nodes":{"id":[1,2,3,4,5,6,7,8,9],"label":["DCC Framework","Heterogeneous Treatment Effects","Bayesian Additive Regression Trees","Debiased Machine Learning","Hierarchical Linear Modeling","Econometrics","Measurement","Project STAR","Cost-Effectiveness"],"group":["Core","Theory","Methodology","Methodology","Methodology","Theory","Theory","Application","Application"],"value":[25,15,15,15,10,15,10,15,10]},"edges":{"from":[1,1,1,1,2,3,6,6,7,7,8,2],"to":[2,3,4,8,5,4,4,2,2,8,9,9]},"nodesToDataframe":true,"edgesToDataframe":true,"options":{"width":"100%","height":"100%","nodes":{"shape":"dot","font":{"size":16},"shadow":true},"manipulation":{"enabled":false},"edges":{"arrows":"to","color":{"opacity":0.5}},"interaction":{"hover":true,"navigationButtons":true,"zoomSpeed":1},"physics":{"stabilization":false}},"groups":["Core","Theory","Methodology","Application"],"width":"100%","height":"600px","idselection":{"enabled":true,"style":"width: 150px; height: 26px","useLabels":true,"main":"Select by id"},"byselection":{"enabled":false,"style":"width: 150px; height: 26px","multiple":false,"hideColor":"rgba(200,200,200,0.5)","highlight":false},"main":null,"submain":null,"footer":null,"background":"rgba(0, 0, 0, 0)","highlight":{"enabled":true,"hoverNearest":true,"degree":1,"algorithm":"all","hideColor":"rgba(200,200,200,0.5)","labelOnly":true},"collapse":{"enabled":false,"fit":false,"resetHighlight":true,"clusterOptions":null,"keepCoord":true,"labelSuffix":"(cluster)"},"tooltipStay":300,"tooltipStyle":"position: fixed;visibility:hidden;padding: 5px;white-space: nowrap;font-family: verdana;font-size:14px;font-color:#000000;background-color: #f5f4ed;-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;border: 1px solid #808074;box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);"},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<p>These three pillars culminate in my dissertation work: the Discover, Characterize, Confirm (DCC) framework. The DCC is a comprehensive methodological pipeline designed to translate complex causal machine learning algorithms into epistemologically aware, visually interpretable analyses for applied researchers.</p>
+<p><strong>Below is an interactive visualization of the research areas relevant to my research program and how they are connected to one another. Clicking on one of the topics brings up my relevant work.</strong></p>
+<style>
+  .node {
+    font: 14px sans-serif;
+    fill: #555555; /* Reverted to uniform dark gray */
+    cursor: pointer;
+    transition: fill 0.2s, font-weight 0.1s ease;
+  }
+  .node:hover {
+    font-weight: 900;
+    fill: #000;
+  }
+  .link {
+    stroke: #b0c4de; 
+    stroke-opacity: 0.3;
+    fill: none;
+    pointer-events: none;
+  }
+  /* Uniform Sandstone Blue for all active connections */
+  .node--connected {
+    fill: #3f51b5 !important; 
+    font-weight: 700;
+  }
+  .link--connected {
+    stroke: #3f51b5;
+    stroke-opacity: 0.8;
+    stroke-width: 2.5px;
+  }
+</style>
+
+<div id="edge-bundling-container" style="display: flex; justify-content: center; width: 100%; min-height: 800px; margin-top: 20px; border: 1px solid #eaeaea; border-radius: 8px;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7" data-external="1"></script>
+<script>
+window.addEventListener("load", function() {
+    
+  // Clean data structure without color stages
+  const nodesData = [
+    {id: "Causal Inference", imports: ["Causal Machine Learning", "HTE"]},
+    {id: "Measurement", imports: ["Causal Inference", "Classification", "HTE"]},
+    {id: "Causal Machine Learning", imports: ["BART & Regression Trees", "Double Machine Learning (DML)"]},
+    {id: "BART & Regression Trees", imports: ["HTE", "Multilevel Modeling", "Classification"]},
+    {id: "Double Machine Learning (DML)", imports: ["HTE"]},
+    {id: "Multilevel Modeling", imports: ["Non-Normal Effects", "HTE"]},
+    {id: "Non-Normal Effects", imports: ["Adaptive Shrinkage"]},
+    {id: "Adaptive Shrinkage", imports: ["Triple-Goal Estimation"]},
+    {id: "HTE", imports: ["Cost-Effectiveness"]},
+    {id: "Classification", imports: ["Triple-Goal Estimation"]},
+    {id: "Triple-Goal Estimation", imports: ["Cost-Effectiveness"]},
+    {id: "Cost-Effectiveness", imports: []}
+  ];
+
+  const width = 800;
+  const radius = width / 2;
+
+  const root = d3.hierarchy({children: nodesData})
+      .each(d => d.data.name = d.data.id);
+
+  const tree = d3.cluster().size([2 * Math.PI, radius - 180]);
+  tree(root);
+
+  const nodes = root.leaves();
+  const map = new Map(nodes.map(d => [d.data.id, d]));
+  const links = [];
+  
+  nodes.forEach(d => {
+    if (d.data.imports) {
+      d.data.imports.forEach(i => {
+        const target = map.get(i);
+        if (target) links.push({source: d, target: target});
+      });
+    }
+  });
+
+  const line = d3.lineRadial()
+      .curve(d3.curveBundle.beta(0.85))
+      .radius(d => d.y)
+      .angle(d => d.x);
+
+  const svg = d3.select("#edge-bundling-container").append("svg")
+      .attr("viewBox", [-width / 2, -width / 2, width, width])
+      .attr("width", width)
+      .attr("height", width)
+      .style("max-width", "100%")
+      .style("height", "auto");
+
+  // === ARROW MARKERS ===
+  const defs = svg.append("defs");
+  defs.append("marker").attr("id", "arrow-default").attr("viewBox", "0 -5 10 10").attr("refX", 10).attr("refY", 0).attr("markerWidth", 6).attr("markerHeight", 6).attr("orient", "auto")
+    .append("path").attr("fill", "#b0c4de").attr("opacity", 0.6).attr("d", "M0,-5L10,0L0,5");
+  defs.append("marker").attr("id", "arrow-hover").attr("viewBox", "0 -5 10 10").attr("refX", 10).attr("refY", 0).attr("markerWidth", 6).attr("markerHeight", 6).attr("orient", "auto")
+    .append("path").attr("fill", "#3f51b5").attr("d", "M0,-5L10,0L0,5");
+
+  const g = svg.append("g");
+
+  const link = g.append("g")
+    .selectAll("path")
+    .data(links)
+    .join("path")
+      .attr("class", "link")
+      .attr("marker-end", "url(#arrow-default)")
+      .attr("d", d => line(d.source.path(d.target)));
+
+  const node = g.append("g")
+    .selectAll("text")
+    .data(nodes)
+    .join("text")
+      .attr("class", "node")
+      .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y + 8},0)${d.x >= Math.PI ? " rotate(180)" : ""}`)
+      .attr("dy", "0.31em")
+      .attr("x", d => d.x < Math.PI ? 6 : -6)
+      .attr("text-anchor", d => d.x < Math.PI ? "start" : "end")
+      .text(d => d.data.id)
+      .on("mouseover", mouseover)
+      .on("mouseout", mouseout)
+      .on("click", (event, d) => {
+        const categoryHash = encodeURIComponent(d.data.id);
+        window.open(`publications/index.html#category=${categoryHash}`, '_blank');
+      });
+
+  function mouseover(event, d) {
+    link.classed("link--connected", l => {
+      if (l.source === d) { l.target.connected = true; return true; }
+      if (l.target === d) { l.source.connected = true; return true; }
+      return false;
+    })
+    .attr("marker-end", l => (l.target === d || l.source === d) ? "url(#arrow-hover)" : "url(#arrow-default)")
+    .filter(l => l.target === d || l.source === d).raise();
+    
+    node.classed("node--connected", n => n.connected);
+  }
+
+  function mouseout() {
+    link.classed("link--connected", false).attr("marker-end", "url(#arrow-default)");
+    node.classed("node--connected", false);
+    nodes.forEach(n => n.connected = false);
+  }
+});
+</script>
 
 
 

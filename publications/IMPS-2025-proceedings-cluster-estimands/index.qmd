@@ -1,0 +1,20 @@
+---
+title: "[Forthcoming] Cluster-specific estimands: Identification and uncertainty in multilevel analysis"
+author:
+  - name:
+      given: Jee-Seon
+      family: Kim
+  - name:
+      given: Graham W.
+      family: Buhrman
+  - name:
+      given: Xiangyi
+      family: Liao
+date: 2026-07-01 
+categories:
+  - Causal Inference
+  - Multilevel Modeling
+  - HTE
+---
+
+*This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society*

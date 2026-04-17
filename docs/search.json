@@ -1,10 +1,38 @@
 [
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research Framework",
+    "section": "",
+    "text": "My methodological research program operates across three core dimensions:\n\nInterpretable Causal Machine Learning: While causal machine learning offers unprecedented flexibility, it carries the inherent risk of “fooling ourselves” when searching for heterogeneous treatment effects. My research addresses this by developing a principled approach to nonparametric regression trees and similar tools—one that explicitly honors the boundary between exploratory and confirmatory research. By making these complex algorithms accessible and interpretable, I design methods that put the researcher firmly in the driver’s seat, ensuring that data-driven discovery is always balanced by strict statistical control.\nMoving Beyond the Average Effect: Rather than settling for the population Average Treatment Effect (ATE), my work focuses on uncovering treatment variation. I build tools for estimating granular, cluster-specific, and individual heterogeneous treatment effects (HTE) to accurately identify for whom and under what conditions an intervention works.\nTranslation to Applied Evaluation: I ground my work in real-world policy evaluation and applications. I am dedicated to building accessible workflows that prevent evaluations from masking heterogeneity, ultimately aiding in the development of cost-effective, scalable educational programs.\n\nThese three pillars culminate in my dissertation work: the Discover, Characterize, Confirm (DCC) framework. The DCC is a comprehensive methodological pipeline designed to translate complex causal machine learning algorithms into epistemologically aware, visually interpretable analyses for applied researchers.\nBelow is an interactive visualization of the research areas relevant to my research program and how they are connected to one another. Clicking on one of the topics brings up my relevant work.\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications and Working Papers",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Categories\n      \n      \n        citation\n      \n    \n  \n    \n      \n      \n    \n\n\n  \n  \n  \n              \n      Jul 1, 2026\n    \n    \n      \n        [Forthcoming] Cluster-specific estimands: Identification and uncertainty in multilevel analysis\n      \n      \n      Jee-Seon Kim, Graham W. Buhrman, Xiangyi Liao\n      \n      \n        \n      \n      \n    \n  \n  \n  \n              \n      Jul 1, 2026\n    \n    \n      \n        [Forthcoming] Adaptive shrinkage with Student's t: Limited gains over Gaussian hierarchical linear models\n      \n      \n      Graham W. Buhrman, Jee-Seon Kim, Weicong Lyu\n      \n      \n        \n      \n      \n    \n  \n  \n  \n              \n      Apr 17, 2026\n    \n    \n      \n        [In Preparation] Decision-theoretic empirical Bayes: Optimizing site-specific scale-up decisions under realistic educational data conditions\n      \n      \n      Graham W. Buhrman, Jee-Seon Kim\n      \n      \n        \n      \n      \n    \n  \n  \n  \n              \n      Jun 25, 2025\n    \n    \n      \n        Beyond averages: Portraying treatment effect variation\n      \n      \n      Jee-Seon Kim, Graham W. Buhrman, Xiangyi. Liao\n      \n      \n        \n        \n      \n      \n      \n        \n          \n            \n              \n                \n                Proceedings\n              \n            \n          \n        \n      \n    \n  \n  \n  \n              \n      Jun 25, 2025\n    \n    \n      \n        Using nonparametric regression trees to estimate different forms of heterogeneous treatment effects\n      \n      \n      Graham W. Buhrman, Xiangyi. Liao, Jee-Seon Kim\n      \n      \n        \n        \n      \n      \n      \n        \n          \n            \n              \n                \n                Proceedings\n              \n            \n          \n        \n      \n    \n  \n  \n  \n              \n      Jun 19, 2024\n    \n    \n      \n        Exploring conceptual differences among nonparametric estimators of treatment effect heterogeneity in the context of clustered data\n      \n      \n      Graham W. Buhrman, Xiangyi Liao, Jee-Seon Kim\n      \n      \n        \n        \n      \n      \n      \n        \n          \n            \n              \n                \n                Proceedings\n              \n            \n          \n        \n      \n    \n  \n  \n  \n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "publications/IMPS-2025-proceedings-cluster-estimands/index.html",
+    "href": "publications/IMPS-2025-proceedings-cluster-estimands/index.html",
+    "title": "[Forthcoming] Cluster-specific estimands: Identification and uncertainty in multilevel analysis",
+    "section": "",
+    "text": "This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "publications/IMPS-2024-proceedings-beyond-averages/index.html",
+    "href": "publications/IMPS-2024-proceedings-beyond-averages/index.html",
+    "title": "Beyond averages: Portraying treatment effect variation",
+    "section": "",
+    "text": "Back to topCitationBibTeX citation:@inproceedings{kim2025,\n  author = {Kim, Jee-Seon and Buhrman, Graham W. and Liao, Xiangyi.},\n  editor = {Kim, Jee-Seon and Wu, H. and Sweet, T. M. and Molenaar, D.\n    and Junker, B. W. and Moustaki, I. and Harring, J. and Bulut, O. and\n    Tong, X. and Wallin, G. and Di Plinio, S.},\n  title = {Beyond Averages: {Portraying} Treatment Effect Variation},\n  booktitle = {Proceedings of the International Meeting of the\n    Psychometric Society: The 89th Annual Meeting, Prague, Czech\n    Republic, 2024},\n  date = {2025-06-25},\n  url = {https://doi.org/10.64028/xvhr927961},\n  doi = {10.64028/xvhr927961},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKim, J.-S., Buhrman, G. W., & Liao, Xiangyi. (2025). Beyond\naverages: Portraying treatment effect variation. In J.-S. Kim, H. Wu, T.\nM. Sweet, D. Molenaar, B. W. Junker, I. Moustaki, J. Harring, O. Bulut,\nX. Tong, G. Wallin, & S. Di Plinio (Eds.), Proceedings of the\nInternational Meeting of the Psychometric Society: The 89th Annual\nMeeting, Prague, Czech Republic, 2024. https://doi.org/10.64028/xvhr927961"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Graham W. Buhrman",
     "section": "",
-    "text": "I am a quantitative methodologist and PhD student at the University of Wisconsin–Madison. My research bridges causal machine learning, multilevel modeling, and statistical decision theory to improve educational research and program evaluation. I develop and study methods that help applied researchers accurately identify heterogeneous treatment effects and conduct rigorous and cost-aware program evaluations."
+    "text": "I am a quantitative methodologist and Ph.D. student in Educational Psychology at the University of Wisconsin–Madison. My research bridges causal machine learning, multilevel modeling, and statistical decision theory to improve educational research and program evaluation.\nMy work focuses on moving beyond average effects to uncover true treatment variation. Through my dissertation—the Discover, Characterize, Confirm (DCC) framework—I develop tools that close the gap between highly flexible, data-driven machine learning and the practical needs and concerns of applied researchers. Ultimately, I aim to build accessible workflows that accurately identify for whom and under what conditions interventions work, aiding in the development of scalable, cost-effective educational programs."
   },
   {
     "objectID": "index.html#education",
@@ -14,11 +42,11 @@
     "text": "Education\n\nPhD in Educational Psychology | Expected 2027  University of Wisconsin-Madison\nMS in Educational Psychology | 2024  University of Wisconsin-Madison\nBS in Interdisciplinary Studies | 2022  North Carolina State University"
   },
   {
-    "objectID": "index.html#interests",
-    "href": "index.html#interests",
-    "title": "Graham W. Buhrman",
-    "section": "Interests",
-    "text": "Interests\n\nCausal inference\nCausal machine learning\nHeterogeneous treatment effects\nMultisite randomized controlled trials"
+    "objectID": "connections-demo.html",
+    "href": "connections-demo.html",
+    "title": "Interactive Connections Demo",
+    "section": "",
+    "text": "Hover over any topic to see its connections. Scroll to zoom, and click and drag to pan.\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "concept-map.html",
@@ -28,17 +56,38 @@
     "text": "Click on any of the overarching domains (the larger colored circles) to zoom in and explore the specific methodological and theoretical topics within that area. Click the background to zoom back out.\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "My Background: I am formally trained in quantitative methods within Educational Psychology, with a technical focus on causal inference, multilevel data structures, and nonparametric regression trees. My workflow uses statistical programming in R and high-throughput computing environments.\nMy Research: My dissertation proposes the ‘Discover, Characterize, Confirm’ (DCC) framework, a methodological pipeline designed to translate complex machine learning algorithms into epistemologically aware and visually interpretable analyses of heterogeneous treatment effects. I have presented my work on the analysis of heterogeneous treatment effects and multilevel analysis at international conferences, including AERA and IMPS, and have published work in the proceedings of IMPS and applied journals.\nMy Focus: I am dedicated to leveraging the power of causal machine learning to understand and explain the mechanisms of treatment effect variation across populations in education research. By building accessible methodological workflows, I aim to prevent evaluations from masking heterogeneity while mitigating the false interpretations of spurious patterns as treatment variation. Ultimately, my work is in the pursuit of developing and scaling cost-effective interventions and programs in education that bring the maximum possible benefit to people.\n\n\n\n Back to top"
-  },
-  {
     "objectID": "demo.html",
     "href": "demo.html",
     "title": "Interactive Network Demo",
     "section": "",
     "text": "The interactive network below maps the conceptual and methodological terrain of my dissertation work. It illustrates how the “Discover, Characterize, Confirm” (DCC) framework bridges the gap between predictive machine learning and econometric causal inference.\n\nInstructions: You can click and drag the nodes to see the physics engine react. Clicking on a specific node will highlight its direct methodological and theoretical connections.\n\n\nlibrary(visNetwork)\n\n# Define the nodes and assign them to thematic groups for automatic color-coding\nnodes &lt;- data.frame(\n  id = 1:9, \n  label = c(\n    \"DCC Framework\", \n    \"Heterogeneous Treatment Effects\", \n    \"Bayesian Additive Regression Trees\", \n    \"Debiased Machine Learning\", \n    \"Hierarchical Linear Modeling\", \n    \"Econometrics\", \n    \"Measurement\", \n    \"Project STAR\", \n    \"Cost-Effectiveness\"\n  ),\n  group = c(\n    \"Core\", \n    \"Theory\", \n    \"Methodology\", \n    \"Methodology\", \n    \"Methodology\", \n    \"Theory\", \n    \"Theory\", \n    \"Application\", \n    \"Application\"\n  ),\n  value = c(25, 15, 15, 15, 10, 15, 10, 15, 10) # Makes the central nodes slightly larger\n)\n\n# Define the directional edges (connections) between the nodes\nedges &lt;- data.frame(\n  from = c(1, 1, 1, 1, 2, 3, 6, 6, 7, 7, 8, 2), \n  to   = c(2, 3, 4, 8, 5, 4, 4, 2, 2, 8, 9, 9)\n)\n\n# Render the interactive widget\nvisNetwork(nodes, edges, width = \"100%\", height = \"600px\") |&gt;\n  visNodes(shape = \"dot\", shadow = TRUE, font = list(size = 16)) |&gt;\n  visEdges(arrows = \"to\", color = list(opacity = 0.5)) |&gt;\n  visOptions(\n    highlightNearest = list(enabled = TRUE, degree = 1, hover = TRUE), \n    nodesIdSelection = TRUE\n  ) |&gt;\n  visPhysics(stabilization = FALSE) |&gt;\n  visInteraction(navigationButtons = TRUE) # Adds zoom controls\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "publications/IMPS-2023-proceedings-clustered-nonparametric/index.html",
+    "href": "publications/IMPS-2023-proceedings-clustered-nonparametric/index.html",
+    "title": "Exploring conceptual differences among nonparametric estimators of treatment effect heterogeneity in the context of clustered data",
+    "section": "",
+    "text": "Back to topCitationBibTeX citation:@inproceedings{buhrman2024,\n  author = {Buhrman, Graham W. and Liao, Xiangyi and Kim, Jee-Seon},\n  editor = {Wiberg, Marie and Kim, Jee-Seon and Hwang, Heungsun and Wu,\n    Hao and Sweet, Tracy},\n  publisher = {Springer},\n  title = {Exploring Conceptual Differences Among Nonparametric\n    Estimators of Treatment Effect Heterogeneity in the Context of\n    Clustered Data},\n  booktitle = {Quantitative Psychology: The 88th Annual Meeting of the\n    Psychometric Society, Maryland, USA, 2023},\n  date = {2024-06-19},\n  url = {https://doi.org/10.1007/978-3-031-55548-0_25},\n  doi = {10.1007/978-3-031-55548-0_25},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBuhrman, G. W., Liao, X., & Kim, J.-S. (2024). Exploring conceptual\ndifferences among nonparametric estimators of treatment effect\nheterogeneity in the context of clustered data. In M. Wiberg, J.-S. Kim,\nH. Hwang, H. Wu, & T. Sweet (Eds.), Quantitative Psychology: The\n88th Annual Meeting of the Psychometric Society, Maryland, USA,\n2023. Springer. https://doi.org/10.1007/978-3-031-55548-0_25"
+  },
+  {
+    "objectID": "publications/IMPS-2024-proceedings-nonparametric-trees/index.html",
+    "href": "publications/IMPS-2024-proceedings-nonparametric-trees/index.html",
+    "title": "Using nonparametric regression trees to estimate different forms of heterogeneous treatment effects",
+    "section": "",
+    "text": "Back to topCitationBibTeX citation:@inproceedings{buhrman2025,\n  author = {Buhrman, Graham W. and Liao, Xiangyi. and Kim, Jee-Seon},\n  editor = {Kim, Jee-Seon and Wu, H. and Sweet, T. M. and Molenaar, D.\n    and Junker, B. W. and Moustaki, I. and Harring, J. and Bulut, O. and\n    Tong, X. and Wallin, G. and Di Plinio, S.},\n  title = {Using Nonparametric Regression Trees to Estimate Different\n    Forms of Heterogeneous Treatment Effects},\n  booktitle = {Proceedings of the International Meeting of the\n    Psychometric Society: The 89th Annual Meeting, Prague, Czech\n    Republic, 2024},\n  date = {2025-06-25},\n  url = {https://doi.org/10.64028/pulr698375},\n  doi = {10.64028/pulr698375},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBuhrman, G. W., Liao, Xiangyi., & Kim, J.-S. (2025). Using\nnonparametric regression trees to estimate different forms of\nheterogeneous treatment effects. In J.-S. Kim, H. Wu, T. M. Sweet, D.\nMolenaar, B. W. Junker, I. Moustaki, J. Harring, O. Bulut, X. Tong, G.\nWallin, & S. Di Plinio (Eds.), Proceedings of the International\nMeeting of the Psychometric Society: The 89th Annual Meeting, Prague,\nCzech Republic, 2024. https://doi.org/10.64028/pulr698375"
+  },
+  {
+    "objectID": "publications/IMPS-2025-proceedings-shrinkage/index.html",
+    "href": "publications/IMPS-2025-proceedings-shrinkage/index.html",
+    "title": "[Forthcoming] Adaptive shrinkage with Student’s t: Limited gains over Gaussian hierarchical linear models",
+    "section": "",
+    "text": "This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "publications/prep-DTEB-scale-up/index.html",
+    "href": "publications/prep-DTEB-scale-up/index.html",
+    "title": "[In Preparation] Decision-theoretic empirical Bayes: Optimizing site-specific scale-up decisions under realistic educational data conditions",
+    "section": "",
+    "text": "This manuscript is currently in preparation.\n\n\n\n Back to top"
   }
 ]
