@@ -1,5 +1,5 @@
 ---
-title: "[Forthcoming] Cluster-specific estimands: Identification and uncertainty in multilevel analysis"
+title: "Cluster-specific estimands: Identification and uncertainty in multilevel analysis"
 author:
   - name:
       given: Jee-Seon
@@ -10,11 +10,51 @@ author:
   - name:
       given: Xiangyi
       family: Liao
-date: 2026-07-01 
+date: 2026-07-08
 categories:
   - Causal Inference
   - Multilevel Modeling
   - HTE
+links:
+- icon: file-earmark-slides
+  text: Proceedings
+  url: https://openreview.net/forum?id=8C9eDxYWUE#discussion
+preprint: false
+citation:
+  type: paper-conference
+  container-title: "Proceedings of the International Meeting of the Psychometric Society: The 90th Annual International Meeting of the Psychometric Society, Minneapolis, United States, 2025"
+  editor:
+    - name:
+        given: Jee-Seon
+        family: Kim
+    - name:
+        given: G.
+        family: Wallin
+    - name:
+        given: H.
+        family: Wu
+    - name:
+        given: T. M.
+        family: Sweet
+    - name:
+        given: B. W.
+        family: Junker
+    - name:
+        given: I.
+        family: Moustaki
+    - name:
+        given: J.
+        family: Harring
+    - name:
+        given: O.
+        family: Bulut
+    - name:
+        given: X.
+        family: Tong
+    - name:
+        given: S.
+        family: Di Plinio
+  url: https://openreview.net/forum?id=8C9eDxYWUE
+  doi: 10.64028/imps2025.8C9eDxYWUE
 ---
 
-*This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society*
