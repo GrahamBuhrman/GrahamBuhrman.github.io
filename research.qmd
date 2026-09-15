@@ -12,9 +12,9 @@ My methodological research program operates across three core dimensions:
 
 - **Moving Beyond the Average Effect:** Rather than settling for the population Average Treatment Effect (ATE), my work focuses on uncovering treatment variation. I build tools for estimating granular, cluster-specific, and individual heterogeneous treatment effects (HTE) to accurately identify for whom and under what conditions an intervention works.
 
-- **Translation to Applied Evaluation:** I ground my work in real-world policy evaluation and applications. I am dedicated to building accessible workflows that prevent evaluations from masking heterogeneity, ultimately aiding in the development of cost-effective, scalable educational programs.
+- **Translation to Applied Evaluation:** I ground my work in real-world policy evaluation and applications. I am dedicated to building accessible workflows that prevent evaluations from masking heterogeneity, ultimately aiding in the development of cost-effective, scalable education programs, policies, and interventions that support all students. 
 
-These three pillars culminate in my dissertation work: the Discover, Characterize, Confirm (DCC) framework. The DCC is a comprehensive methodological pipeline designed to translate complex causal machine learning algorithms into epistemologically aware, visually interpretable analyses for applied researchers.
+These three directions in my research fold together into my dissertation, *Measurement, Regularization, and the Resolution of Causal Claims,* and in the Discover, Characterize, Confirm (DCC) framework that my program ultimately pursues. **Discover** refers to questions about whether systematic treatment effect heterogeneity is present in data and whether that heterogeneity can be detected by standard methods. **Characterize** refers to questions about what factors produce that heterogeneity, whether methods can identify those factors, and what tools we can use to map heterogeneity onto the correct factors. **Confirm** refers to questions of consistency and replication: whether a finding of heterogeneity is supported both within and across studies. 
 
 **Below is an interactive visualization of the research areas relevant to my research program and how they are connected to one another. Clicking on one of the topics brings up my relevant work.**
 
