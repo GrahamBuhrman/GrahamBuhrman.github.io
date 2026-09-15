@@ -1,0 +1,16 @@
+---
+title: "[Under Review] The resolution gap: Global guarantees and local limitations in causal machine learning"
+author:
+  - name:
+      given: Graham W.
+      family: Buhrman
+categories:
+  - HTE
+  - Causal Inference
+  - Causal Machine Learning
+  - BART & Regression Trees
+  - Double Machine Learning (DML)
+  - Measurement
+---
+
+*This manuscript is currently under review.*

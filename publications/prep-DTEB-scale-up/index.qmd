@@ -1,5 +1,5 @@
 ---
-title: "[In Preparation] Decision-theoretic empirical Bayes: Optimizing site-specific scale-up decisions under realistic educational data conditions"
+title: "[Under Review] Indentifying exceptional sites in multi-site trials: Boundary conditions and the importance of thresholds and cost ratios for decision-theoretic empirical Bayes"
 author:
   - name:
       given: Graham W.
@@ -7,7 +7,6 @@ author:
   - name:
       given: Jee-Seon
       family: Kim
-date: 2026-04-17 
 categories:
   - Triple-Goal Estimation
   - Multilevel Modeling
@@ -15,4 +14,4 @@ categories:
   - HTE
 ---
 
-*This manuscript is currently in preparation.*
+*This manuscript is currently under review.*
