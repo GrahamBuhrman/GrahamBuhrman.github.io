@@ -12,7 +12,7 @@
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Wed, 08 Jul 2026 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>[Forthcoming] Cluster-specific estimands: Identification and uncertainty in multilevel analysis</title>
+  <title>Cluster-specific estimands: Identification and uncertainty in multilevel analysis</title>
   <dc:creator>Jee-Seon Kim</dc:creator>
   <dc:creator>Graham W. Buhrman</dc:creator>
   <dc:creator>Xiangyi Liao</dc:creator>
@@ -24,11 +24,33 @@
 
 
 
-<p><em>This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society</em></p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{kim2026,
+  author = {Kim, Jee-Seon and Buhrman, Graham W. and Liao, Xiangyi},
+  editor = {Kim, Jee-Seon and Wallin, G. and Wu, H. and Sweet, T. M. and
+    Junker, B. W. and Moustaki, I. and Harring, J. and Bulut, O. and
+    Tong, X. and Di Plinio, S.},
+  title = {Cluster-Specific Estimands: {Identification} and Uncertainty
+    in Multilevel Analysis},
+  booktitle = {Proceedings of the International Meeting of the
+    Psychometric Society: The 90th Annual International Meeting of the
+    Psychometric Society, Minneapolis, United States, 2025},
+  date = {2026-07-08},
+  url = {https://openreview.net/forum?id=8C9eDxYWUE},
+  doi = {10.64028/imps2025.8C9eDxYWUE},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-kim2026" class="csl-entry quarto-appendix-citeas">
+Kim, J.-S., Buhrman, G. W., &amp; Liao, X. (2026). Cluster-specific
+estimands: Identification and uncertainty in multilevel analysis. In
+J.-S. Kim, G. Wallin, H. Wu, T. M. Sweet, B. W. Junker, I. Moustaki, J.
+Harring, O. Bulut, X. Tong, &amp; S. Di Plinio (Eds.), <em>Proceedings
+of the International Meeting of the Psychometric Society: The 90th
+Annual International Meeting of the Psychometric Society, Minneapolis,
+United States, 2025</em>. <a href="https://doi.org/10.64028/imps2025.8C9eDxYWUE">https://doi.org/10.64028/imps2025.8C9eDxYWUE</a>
+</div></div></section></div> ]]></description>
   <category>Causal Inference</category>
   <category>Multilevel Modeling</category>
   <category>HTE</category>
@@ -36,7 +58,7 @@
   <pubDate>Wed, 08 Jul 2026 05:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>[Forthcoming] Adaptive shrinkage with Student’s t: Limited gains over Gaussian hierarchical linear models</title>
+  <title>Adaptive shrinkage with Student’s t: Limited gains over Gaussian hierarchical linear models</title>
   <dc:creator>Graham W. Buhrman</dc:creator>
   <dc:creator>Jee-Seon Kim</dc:creator>
   <dc:creator>Weicong Lyu</dc:creator>
@@ -48,40 +70,38 @@
 
 
 
-<p><em>This paper will be published in the upcoming proceedings of the 90th Annual Meeting of the Psychometric Society</em></p>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@inproceedings{buhrman2026,
+  author = {Buhrman, Graham W. and Kim, Jee-Seon and Lyu, Weicong},
+  editor = {Kim, Jee-Seon and Wallin, G. and Wu, H. and Sweet, T. M. and
+    Junker, B. W. and Moustaki, I. and Harring, J. and Bulut, O. and
+    Tong, X. and Di Plinio, S.},
+  title = {Adaptive Shrinkage with {Student’s} t: {Limited} Gains over
+    {Gaussian} Hierarchical Linear Models},
+  booktitle = {Proceedings of the International Meeting of the
+    Psychometric Society: The 90th Annual International Meeting of the
+    Psychometric Society, Minneapolis, United States, 2025},
+  date = {2026-07-08},
+  url = {https://openreview.net/forum?id=W67kxaKDz},
+  doi = {10.64028/imps2025.W67kxaKDz},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-buhrman2026" class="csl-entry quarto-appendix-citeas">
+Buhrman, G. W., Kim, J.-S., &amp; Lyu, W. (2026). Adaptive shrinkage
+with Student’s t: Limited gains over Gaussian hierarchical linear
+models. In J.-S. Kim, G. Wallin, H. Wu, T. M. Sweet, B. W. Junker, I.
+Moustaki, J. Harring, O. Bulut, X. Tong, &amp; S. Di Plinio (Eds.),
+<em>Proceedings of the International Meeting of the Psychometric
+Society: The 90th Annual International Meeting of the Psychometric
+Society, Minneapolis, United States, 2025</em>. <a href="https://doi.org/10.64028/imps2025.W67kxaKDz">https://doi.org/10.64028/imps2025.W67kxaKDz</a>
+</div></div></section></div> ]]></description>
   <category>Adaptive Shrinkage</category>
   <category>Multilevel Modeling</category>
   <category>Classification</category>
   <guid>https://gwbuhrman.com/publications/IMPS-2025-proceedings-shrinkage/</guid>
   <pubDate>Wed, 08 Jul 2026 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>[In Preparation] Decision-theoretic empirical Bayes: Optimizing site-specific scale-up decisions under realistic educational data conditions</title>
-  <dc:creator>Graham W. Buhrman</dc:creator>
-  <dc:creator>Jee-Seon Kim</dc:creator>
-  <link>https://gwbuhrman.com/publications/prep-DTEB-scale-up/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<p><em>This manuscript is currently in preparation.</em></p>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Triple-Goal Estimation</category>
-  <category>Multilevel Modeling</category>
-  <category>Classification</category>
-  <category>HTE</category>
-  <guid>https://gwbuhrman.com/publications/prep-DTEB-scale-up/</guid>
-  <pubDate>Fri, 17 Apr 2026 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Beyond averages: Portraying treatment effect variation</title>
@@ -220,6 +240,55 @@ H. Hwang, H. Wu, &amp; T. Sweet (Eds.), <em>Quantitative Psychology: The
   <category>HTE</category>
   <guid>https://gwbuhrman.com/publications/IMPS-2023-proceedings-clustered-nonparametric/</guid>
   <pubDate>Wed, 19 Jun 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Under Review] Indentifying exceptional sites in multi-site trials: Boundary conditions and the importance of thresholds and cost ratios for decision-theoretic empirical Bayes</title>
+  <dc:creator>Graham W. Buhrman</dc:creator>
+  <dc:creator>Jee-Seon Kim</dc:creator>
+  <link>https://gwbuhrman.com/publications/prep-DTEB-scale-up/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><em>This manuscript is currently under review.</em></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Triple-Goal Estimation</category>
+  <category>Multilevel Modeling</category>
+  <category>Classification</category>
+  <category>HTE</category>
+  <guid>https://gwbuhrman.com/publications/prep-DTEB-scale-up/</guid>
+  <pubDate>Tue, 15 Sep 2026 15:51:03 GMT</pubDate>
+</item>
+<item>
+  <title>[Under Review] The resolution gap: Global guarantees and local limitations in causal machine learning</title>
+  <dc:creator>Graham W. Buhrman</dc:creator>
+  <link>https://gwbuhrman.com/publications/resolution-gap/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p><em>This manuscript is currently under review.</em></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>HTE</category>
+  <category>Causal Inference</category>
+  <category>Causal Machine Learning</category>
+  <category>BART &amp; Regression Trees</category>
+  <category>Double Machine Learning (DML)</category>
+  <category>Measurement</category>
+  <guid>https://gwbuhrman.com/publications/resolution-gap/</guid>
+  <pubDate>Tue, 15 Sep 2026 15:51:03 GMT</pubDate>
 </item>
 </channel>
 </rss>
