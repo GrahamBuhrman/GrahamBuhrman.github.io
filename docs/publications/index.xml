@@ -10,7 +10,7 @@
 <atom:link href="https://gwbuhrman.com/publications/index.xml" rel="self" type="application/rss+xml"/>
 <description>Quantitative methodologist and Ph.D. student specializing in causal machine learning and multilevel modeling.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 01 Jul 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 08 Jul 2026 05:00:00 GMT</lastBuildDate>
 <item>
   <title>[Forthcoming] Cluster-specific estimands: Identification and uncertainty in multilevel analysis</title>
   <dc:creator>Jee-Seon Kim</dc:creator>
@@ -33,7 +33,7 @@
   <category>Multilevel Modeling</category>
   <category>HTE</category>
   <guid>https://gwbuhrman.com/publications/IMPS-2025-proceedings-cluster-estimands/</guid>
-  <pubDate>Wed, 01 Jul 2026 05:00:00 GMT</pubDate>
+  <pubDate>Wed, 08 Jul 2026 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>[Forthcoming] Adaptive shrinkage with Student’s t: Limited gains over Gaussian hierarchical linear models</title>
@@ -57,7 +57,7 @@
   <category>Multilevel Modeling</category>
   <category>Classification</category>
   <guid>https://gwbuhrman.com/publications/IMPS-2025-proceedings-shrinkage/</guid>
-  <pubDate>Wed, 01 Jul 2026 05:00:00 GMT</pubDate>
+  <pubDate>Wed, 08 Jul 2026 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>[In Preparation] Decision-theoretic empirical Bayes: Optimizing site-specific scale-up decisions under realistic educational data conditions</title>
