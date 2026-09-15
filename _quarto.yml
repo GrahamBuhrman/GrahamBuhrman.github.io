@@ -18,7 +18,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: /files/Buhrman-CV.pdf
+      - href: /files/buhrman-cv-references.pdf
         text: CV
         target: _blank
       - href: research.qmd
